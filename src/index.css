@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:ital,wght@1,500&display=swap');
+
+/* Our Root variables used globally  */
+:root{
+
+    /* Fonts  */
+    font-family: 'Raleway', sans-serif; /*All texts covering */
+    --main-f-1: 'Roboto', sans-serif ; /* For highlighting */
+
+    /* Buttons  */
+    --main-btn-primary: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+    --main-btn-primary-hover: linear-gradient(266.79deg, #0d3497 4.63%, #08324f 100%);
+  
+    /* Text colors  */
+    --main-col-1: #0096FF;
+}
+
+body {  color: white;    }
+
+/* Main background color  */
+.main-bg {
+    background: rgb(46,51,83);
+    background: linear-gradient(90deg, rgba(46,51,83,1) 3%, rgba(65,38,136,1) 68%, rgba(131,111,168,1) 88%);
+}
+
+/* Fonts Classes */
+.f-1{ font-family: var(--main-f-1); }/* For heading , highlights or something noticable*/
+    
+.text-highlight{ /* For highlighting specific text */
+    color: var(--main-col-1);
+    font-weight: 600;
+    font-family: var(--main-f-1);
+}
+
+/* Buttons Classes */
+.btn-first{
+    background: var(--main-btn-primary) !important;
+    color: white;
+}
+.btn-first:hover{
+    background: var(--main-btn-primary-hover) !important;
+    color: white;
+}
+
+
+/* Use the property for text (heading,paragraphs) can be provide the margin and padding context of the parent div  */
+.headingPara{
+    margin: 35px 12px ;
+    padding: 5px 4px;
+}
+
+/* Images  */
+.img-1{
+    max-width: 32px;
+}
+
+/* To used to our tags of cards  */
+.cardTop{
+    position: absolute;
+    top: -7%;
+    left: 24%;
+    padding: 0px 15px;
+    font-size: 10px;
+    color: white;
+    font-family: var(--main-f-1);
+}
+
+/* Denoting our selection is highlighted  */
+.right{
+    position: absolute;
+    top: -22%;
+    left: -11%;
+    width: 38px;
+    height: 44px;
+}
+
+/* Card offer expired  */
+.disabled{
+    cursor:text !important;
+    background: rgb(225, 225, 225);
+}
+
+/* Display content  */
+.flex{
+    display: flex;
+    align-items: center;
+}

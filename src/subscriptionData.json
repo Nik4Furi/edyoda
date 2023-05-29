@@ -1,0 +1,35 @@
+[
+    {
+        "id" : 1,
+        "month" : 12,
+        "total" : 99,
+        "mon" : 6,
+        "tag" : "Offer Expired",
+        "selected" : false
+
+    },
+    {
+        "id" : 2,
+        "month" : 12,
+        "total" : 719,
+        "mon" : 16,
+        "tag" : "Recommended",
+        "selected" : false
+    },
+    {
+        "id" : 3,
+        "month" : 6,
+        "total" : 149,
+        "mon" : 23,
+        "tag" : null,
+        "selected" : false
+    },
+    {
+        "id" : 4,
+        "month" : 3,
+        "total" : 99,
+        "mon" : 33,
+        "tag" : null,
+        "selected" : false
+    }
+]
