@@ -1,6 +1,7 @@
 # <h1 id="edyoda"> Edyoda ![GitHub package.json version](https://img.shields.io/github/package-json/v/Nik4Furi/edyoda) </h1>
 ### Edyoda, is a assessment solution of *EDYODA* , 
 #### Edyoda , it is a subscription page, where you can select the subscription plan, also have the discount payment option to processed your choosed plan.
+<a href="https://master--polite-donut-86d582.netlify.app/" > Its Live Here </a>
 
 
 ## Indexing the contents
